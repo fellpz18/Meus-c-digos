@@ -1,3 +1,17 @@
+a.botao-link {
+    color: white;
+    text-decoration: none;
+    padding: 8px 12px;
+    border-radius: 5px;
+    transition: background 0.3s;
+    display: inline-block; /* para respeitar o padding certinho */
+}
+
+a.botao-link:hover {
+    background: #ffffff77; /* um tom mais escuro no hover */
+}
+
+
 * {
     margin: 0;
     padding: 0;
